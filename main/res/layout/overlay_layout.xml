@@ -1,47 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/overlay"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
 
-    <FrameLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:ignore="MissingConstraints">
-
-        <!-- Root container -->
-        <RelativeLayout
-            android:id="@+id/root_container"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
-
-            <!-- View while view is collapsed -->
-            <RelativeLayout
-                android:id="@+id/collapse_view"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:visibility="visible">
-
-                <RelativeLayout
-                    android:layout_width="60dp"
-                    android:layout_marginTop="10dp"
-                    android:background="@drawable/whitebg"
-                    android:layout_height="60dp">
-
-                </RelativeLayout>
-
-                <!-- Close button -->
-            </RelativeLayout>
-        </RelativeLayout>
-    </FrameLayout>
-
+    <!-- Circular widget content -->
     <ImageView
-        android:id="@+id/close_btn"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
+        android:id="@+id/widget_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:src="@drawable/applogo"
-        tools:layout_editor_absoluteX="78dp"
-        tools:layout_editor_absoluteY="185dp" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:contentDescription="@null" />
+</RelativeLayout>
