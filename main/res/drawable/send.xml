@@ -1,12 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?>
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="48dp"
     android:height="48dp"
-    android:viewportWidth="960"
-    android:viewportHeight="960"
+    android:viewportWidth="48"
+    android:viewportHeight="48"
     android:tint="?attr/colorControlNormal"
     android:autoMirrored="true">
+
+  <!-- Circular white background -->
   <path
       android:fillColor="@android:color/white"
-      android:pathData="M120,800L120,160L880,480L120,800ZM180,707L724,480L180,250L180,418L422,480L180,540L180,707ZM180,707L180,480L180,250L180,418L180,418L180,540L180,540L180,707Z"/>
+      android:pathData="M24,0C11,0,0,11,0,24s11,24,24,24s24-11,24-24S37,0,24,0z" />
+
+  <!-- Black icon -->
+  <path
+      android:fillColor="@android:color/black"
+      android:pathData="M12,12L36,24L12,36z" />
 </vector>
