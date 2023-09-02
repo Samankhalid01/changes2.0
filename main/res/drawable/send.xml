@@ -1,0 +1,18 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48"
+    android:tint="?attr/colorControlNormal"
+    android:autoMirrored="true">
+
+  <!-- Circular white background -->
+  <path
+      android:fillColor="@android:color/white"
+      android:pathData="M24,0C11,0,0,11,0,24s11,24,24,24s24-11,24-24S37,0,24,0z" />
+
+  <!-- Black icon -->
+  <path
+      android:fillColor="@android:color/black"
+      android:pathData="M12,12L36,24L12,36z" />
+</vector>
