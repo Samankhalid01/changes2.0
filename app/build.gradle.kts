@@ -41,10 +41,17 @@ dependencies {
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
     implementation ("com.squareup.okhttp3:okhttp:3.6.0")
     implementation ("com.squareup.okhttp3:okhttp-urlconnection:3.6.0")
+<<<<<<< HEAD
     implementation ("com.google.code.gson:gson:2.8.8")
     implementation ("org.json:json:20210307")
     implementation ("com.fasterxml.jackson.core:jackson-core:2.15.2")
     implementation ("com.fasterxml.jackson.core:jackson-databind:2.15.2")
     implementation ("com.fasterxml.jackson.core:jackson-annotations:2.15.2")
+=======
+    implementation ("com.google.code.gson:gson:2.8.8");
+
+
+
+>>>>>>> 95911ef506281bec84a96376646ac9d0dcfa8386
 
 }
